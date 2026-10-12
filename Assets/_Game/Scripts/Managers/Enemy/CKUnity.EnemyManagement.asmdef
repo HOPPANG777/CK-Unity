@@ -1,0 +1,5 @@
+{
+    "name": "CKUnity.EnemyManagement",
+    "references": ["CKUnity.Enemy"],
+    "autoReferenced": true
+}

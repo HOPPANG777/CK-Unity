@@ -1,0 +1,12 @@
+{
+    "name": "CKUnity.Dungeon",
+    "references": [
+        "CKUnity.Player",
+        "CKUnity.Enemy",
+        "CKUnity.EnemyManagement",
+        "CKUnity.Missile",
+        "CKUnity.ScreenWorldBounds",
+        "UnityEngine.UI"
+    ],
+    "autoReferenced": true
+}

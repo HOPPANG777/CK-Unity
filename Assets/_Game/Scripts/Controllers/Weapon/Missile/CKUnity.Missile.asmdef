@@ -1,0 +1,5 @@
+{
+    "name": "CKUnity.Missile",
+    "references": ["CKUnity.Player", "CKUnity.ScreenWorldBounds"],
+    "autoReferenced": true
+}
