@@ -1,0 +1,12 @@
+{
+    "name": "CKUnity.Gameplay",
+    "references": [
+        "CKUnity.Player",
+        "CKUnity.Enemy",
+        "CKUnity.Missile",
+        "CKUnity.ScreenWorldBounds",
+        "Unity.InputSystem",
+        "UnityEngine.UI"
+    ],
+    "autoReferenced": true
+}
