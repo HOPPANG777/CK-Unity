@@ -112,20 +112,35 @@ MonoBehaviour:
   _bounds: {fileID: 3003}
   _waves:
   - _formation: {fileID: 6002}
-    _count: 3
+    _count: 4
     _speed: 0.85
   - _formation: {fileID: 7002}
-    _count: 4
-    _speed: 1.05
+    _count: 8
+    _speed: 1.15
   - _formation: {fileID: 8002}
-    _count: 6
+    _count: 8
     _speed: 1.25
   - _formation: {fileID: 7002}
-    _count: 8
-    _speed: 1.45
+    _count: 10
+    _speed: 1.55
   - _formation: {fileID: 8002}
     _count: 10
     _speed: 1.65
+  - _formation: {fileID: 6002}
+    _count: 8
+    _speed: 1.65
+  - _formation: {fileID: 7002}
+    _count: 10
+    _speed: 1.75
+  - _formation: {fileID: 8002}
+    _count: 10
+    _speed: 1.85
+  - _formation: {fileID: 6002}
+    _count: 10
+    _speed: 1.95
+  - _formation: {fileID: 7002}
+    _count: 10
+    _speed: 2.05
   _delay: 2
   _inset: 1
   _obstacles:
@@ -323,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb8fb33ee75d77c8b66827787d4126f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CKUnity.Gameplay::CircleFormation
-  _radius: 3
+  _radius: 4
   _startAngle: 0
 --- !u!1 &8000
 GameObject:
@@ -584,3 +599,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e901096eaf89a3c21900f7ca3efb6af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CKUnity.Gameplay::PlayerPointerFire
+--- !u!114 &90001004 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9000001, guid: fc1c1cab4f6a5b7644c1a4ea7ea311ca, type: 3}
+  m_PrefabInstance: {fileID: 90000000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1d2e3cf8cacd5a0f566ad03f52cc93, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: CKUnity.Gameplay::PlayerPointerAim
